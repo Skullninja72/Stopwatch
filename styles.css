@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+     background:whitesmoke;
+     font-family: 'Roboto', sans-serif; 
+     height:100%;
+     position:relative;
+     height:100%;
+     overflow: hidden;
+      
+}
+main{
+     display:flex;
+     justify-content: center;
+     height:70vh;
+ }
+ main section{
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     
+     }
+     main section article{
+          min-width:320px;
+          min-height:250px;
+          border-radius: 10px;
+          position: relative;
+          border-radius: 50px;
+background: linear-gradient(145deg, #a7a7a7, #c7c7c7);
+box-shadow:  41px 41px 82px #a7a7a7,
+             -41px -41px 82px #cdcdcd;
+      }
+
+      #display{
+           margin-left: 5rem;
+      }
+      #topic , #seconds , #tens , .nav{
+           align-items:center;
+           
+           letter-spacing: 1px;
+           padding:2rem 0.5rem 0.5rem 2.5rem;
+           justify-content: center;
+           margin:8px 18px;
+           
+      }
+
+      #topic{
+           position: relative;
+           font-size:2.1rem;
+           margin-left: 3.5rem;
+      }
+
+      #seconds , #tens{
+          padding: 1rem 1rem 1rem 1rem;
+          font-size: 2.5rem;
+          border-radius: 50px;
+          background: whitesmoke;
+          
+         
+      }
+
+      #button-start,#button-stop,#button-reset{
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: bold;
+          margin: 4px 10px;
+          border-color: transparent;
+          padding: 2rem 1rem;
+          border-radius: 50px;
+          background: #dfdddd;
+          box-shadow: inset 27px 27px 54px #b9b7b7,
+          inset -27px -27px 54px #ffffff;
+          transition: all 0.1s ease-in-out;
+         
+          }
+
+
+
+h1 {
+     font-family:'Roboto', sans-serif; 
+     font-weight:100;
+     font-size: 2.6rem;
+     text-transform: uppercase;
+
+}
+#seconds #tens{
+     font-size: 2rem;
+     
+
+}
+
